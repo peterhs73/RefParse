@@ -1,0 +1,18 @@
+# requirements for refparse
+
+# requirement for configuration
+pyyaml==5.3
+Cheetah3==3.2.6
+
+# requirement for interface
+Click==7.1.2
+PySide2==5.12.0
+
+# requirement for network
+requests==2.24
+
+# requirement for parsing
+pylatexenc==2.8
+titlecase==2.0.0
+beautifulsoup4==4.9
+lxml==4.5

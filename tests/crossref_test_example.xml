@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<crossref_result xmlns="http://www.crossref.org/qrschema/3.0" version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.crossref.org/qrschema/3.0 http://www.crossref.org/schemas/crossref_query_output3.0.xsd">
+  <query_result>
+    <head>
+      <doi_batch_id>none</doi_batch_id>
+    </head>
+    <body>
+      <query status="resolved">
+        <doi type="journal_article">10.1021/acs.jpcc.8b11783</doi>
+        <crm-item name="publisher-name" type="string">American Chemical Society (ACS)</crm-item>
+        <crm-item name="prefix-name" type="string">American Chemical Society</crm-item>
+        <crm-item name="member-id" type="number">316</crm-item>
+        <crm-item name="citation-id" type="number">104166681</crm-item>
+        <crm-item name="journal-id" type="number">59250</crm-item>
+        <crm-item name="deposit-timestamp" type="number">2020011701200800256</crm-item>
+        <crm-item name="owner-prefix" type="string">10.1021</crm-item>
+        <crm-item name="last-update" type="date">2020-04-10T11:26:13Z</crm-item>
+        <crm-item name="created" type="date">2019-01-17T11:32:36Z</crm-item>
+        <crm-item name="citedby-count" type="number">6</crm-item>
+        <doi_record>
+          <crossref xmlns="http://www.crossref.org/xschema/1.1" xsi:schemaLocation="http://www.crossref.org/xschema/1.1 http://doi.crossref.org/schemas/unixref1.1.xsd">
+            <journal>
+              <journal_metadata language="en">
+                <full_title>The Journal of Physical Chemistry C</full_title>
+                <abbrev_title>J. Phys. Chem. C</abbrev_title>
+                <issn media_type="print">1932-7447</issn>
+                <issn media_type="electronic">1932-7455</issn>
+              </journal_metadata>
+              <journal_issue>
+                <publication_date media_type="online">
+                  <month>01</month>
+                  <day>17</day>
+                  <year>2019</year>
+                </publication_date>
+                <publication_date media_type="print">
+                  <month>02</month>
+                  <day>14</day>
+                  <year>2019</year>
+                </publication_date>
+                <journal_volume>
+                  <volume>123</volume>
+                </journal_volume>
+                <issue>6</issue>
+              </journal_issue>
+              <journal_article publication_type="full_text">
+                <titles>
+                  <title>Substrate-Dependent Photoconductivity Dynamics in a High-Efficiency Hybrid Perovskite Alloy</title>
+                </titles>
+                <contributors>
+                  <person_name sequence="first" contributor_role="author">
+                    <given_name>Ali Moeed</given_name>
+                    <surname>Tirmzi</surname>
+                    <affiliation>Department of Chemistry and Chemical Biology, Cornell University, Ithaca, New York 14853, United States</affiliation>
+                    <ORCID authenticated="true">http://orcid.org/0000-0002-1697-0592</ORCID>
+                  </person_name>
+                  <person_name sequence="additional" contributor_role="author">
+                    <given_name>Jeffrey A.</given_name>
+                    <surname>Christians</surname>
+                    <affiliation>National Renewable Energy Laboratory, Golden, Colorado 80401, United States</affiliation>
+                    <ORCID authenticated="true">http://orcid.org/0000-0002-6792-9741</ORCID>
+                  </person_name>
+                  <person_name sequence="additional" contributor_role="author">
+                    <given_name>Ryan P.</given_name>
+                    <surname>Dwyer</surname>
+                    <affiliation>Department of Chemistry and Chemical Biology, Cornell University, Ithaca, New York 14853, United States</affiliation>
+                    <ORCID authenticated="true">http://orcid.org/0000-0002-7439-1054</ORCID>
+                  </person_name>
+                  <person_name sequence="additional" contributor_role="author">
+                    <given_name>David T.</given_name>
+                    <surname>Moore</surname>
+                    <affiliation>National Renewable Energy Laboratory, Golden, Colorado 80401, United States</affiliation>
+                  </person_name>
+                  <person_name sequence="additional" contributor_role="author">
+                    <given_name>John A.</given_name>
+                    <surname>Marohn</surname>
+                    <affiliation>Department of Chemistry and Chemical Biology, Cornell University, Ithaca, New York 14853, United States</affiliation>
+                  </person_name>
+                </contributors>
+                <publication_date media_type="online">
+                  <month>01</month>
+                  <day>17</day>
+                  <year>2019</year>
+                </publication_date>
+                <publication_date media_type="print">
+                  <month>02</month>
+                  <day>14</day>
+                  <year>2019</year>
+                </publication_date>
+                <pages>
+                  <first_page>3402</first_page>
+                  <last_page>3415</last_page>
+                </pages>
+                <publisher_item>
+                  <identifier id_type="doi">10.1021/acs.jpcc.8b11783</identifier>
+                </publisher_item>
+                <ns3:program xmlns:ns3="http://www.crossref.org/fundref.xsd" name="fundref">
+                  <ns3:assertion name="fundgroup">
+                    <ns3:assertion name="funder_name">
+                      Office of Energy Efficiency and Renewable Energy
+                      <ns3:assertion name="funder_identifier">http://dx.doi.org/10.13039/100006134</ns3:assertion>
+                    </ns3:assertion>
+                    <ns3:assertion name="award_number">DE-SC00014664</ns3:assertion>
+                  </ns3:assertion>
+                  <ns3:assertion name="fundgroup">
+                    <ns3:assertion name="funder_name">
+                      Division of Materials Research
+                      <ns3:assertion name="funder_identifier">http://dx.doi.org/10.13039/100000078</ns3:assertion>
+                    </ns3:assertion>
+                    <ns3:assertion name="award_number">1709879</ns3:assertion>
+                  </ns3:assertion>
+                </ns3:program>
+                <ns2:program xmlns:ns2="http://www.crossref.org/AccessIndicators.xsd" name="AccessIndicators">
+                  <ns2:license_ref start_date="2020-01-17-05:00" applies_to="vor">http://pubs.acs.org/page/policy/authorchoice_termsofuse.html</ns2:license_ref>
+                </ns2:program>
+                <doi_data>
+                  <doi>10.1021/acs.jpcc.8b11783</doi>
+                  <resource>https://pubs.acs.org/doi/10.1021/acs.jpcc.8b11783</resource>
+                  <collection property="crawler-based">
+                    <item crawler="iParadigms">
+                      <resource>https://pubs.acs.org/doi/pdf/10.1021/acs.jpcc.8b11783</resource>
+                    </item>
+                  </collection>
+                  <collection property="unspecified">
+                    <item>
+                      <resource content_version="vor" mime_type="application/pdf">http://pubs.acs.org/doi/pdf/10.1021/acs.jpcc.8b11783</resource>
+                    </item>
+                  </collection>
+                </doi_data>
+                <citation_list>
+                  <citation key="ref1/cit1">
+                    <doi>10.1063/1.4864778</doi>
+                  </citation>
+                  <citation key="ref2/cit2">
+                    <doi>10.1002/anie.201409740</doi>
+                  </citation>
+                  <citation key="ref3/cit3">
+                    <doi>10.1063/1.4914544</doi>
+                  </citation>
+                  <citation key="ref4/cit4">
+                    <doi>10.1557/mrc.2015.26</doi>
+                  </citation>
+                  <citation key="ref5/cit5">
+                    <doi>10.1002/adma.201503406</doi>
+                  </citation>
+                  <citation key="ref6/cit6">
+                    <doi>10.1021/jz500370k</doi>
+                  </citation>
+                  <citation key="ref7/cit7">
+                    <doi>10.1021/acsenergylett.7b00239</doi>
+                  </citation>
+                  <citation key="ref8/cit8">
+                    <doi>10.1039/c7ee02415k</doi>
+                  </citation>
+                  <citation key="ref9/cit9">
+                    <doi>10.1016/j.ssi.2018.03.029</doi>
+                  </citation>
+                  <citation key="ref10/cit10">
+                    <doi>10.1021/ja512117e</doi>
+                  </citation>
+                  <citation key="ref11/cit11">
+                    <doi>10.1039/c4cp03533j</doi>
+                  </citation>
+                  <citation key="ref12/cit12">
+                    <doi>10.1002/admi.201400532</doi>
+                  </citation>
+                  <citation key="ref13/cit13">
+                    <doi>10.1038/srep40267</doi>
+                  </citation>
+                  <citation key="ref14/cit14">
+                    <doi>10.1088/1361-6463/aaa727</doi>
+                  </citation>
+                  <citation key="ref15/cit15">
+                    <doi>10.1002/anie.201500014</doi>
+                  </citation>
+                  <citation key="ref16/cit16">
+                    <doi>10.1021/acs.jpclett.6b00963</doi>
+                  </citation>
+                  <citation key="ref17/cit17">
+                    <doi>10.1002/adma.201700527</doi>
+                  </citation>
+                  <citation key="ref18/cit18">
+                    <doi>10.1002/adma.201503832</doi>
+                  </citation>
+                  <citation key="ref19/cit19">
+                    <doi>10.1038/s41563-018-0038-0</doi>
+                  </citation>
+                  <citation key="ref20/cit20">
+                    <doi>10.1002/anie.201701724</doi>
+                  </citation>
+                  <citation key="ref21/cit21">
+                    <doi>10.1002/aenm.201500615</doi>
+                  </citation>
+                  <citation key="ref23/cit23">
+                    <doi>10.1038/ncomms11683</doi>
+                  </citation>
+                  <citation key="ref24/cit24">
+                    <doi>10.1002/aenm.201500279</doi>
+                  </citation>
+                  <citation key="ref25/cit25">
+                    <doi>10.1039/c6ee02914k</doi>
+                  </citation>
+                  <citation key="ref26/cit26">
+                    <doi>10.1021/acs.jpcc.8b01033</doi>
+                  </citation>
+                  <citation key="ref27/cit27">
+                    <doi>10.1021/jp510837q</doi>
+                  </citation>
+                  <citation key="ref28/cit28">
+                    <doi>10.1021/acs.jpclett.5b02810</doi>
+                  </citation>
+                  <citation key="ref29/cit29">
+                    <doi>10.1021/acs.jpclett.6b02193</doi>
+                  </citation>
+                  <citation key="ref30/cit30">
+                    <doi>10.1038/s41560-017-0067-y</doi>
+                  </citation>
+                  <citation key="ref31/cit31">
+                    <doi>10.1039/c5ee03874j</doi>
+                  </citation>
+                  <citation key="ref32/cit32">
+                    <doi>10.1039/c7ee03654j</doi>
+                  </citation>
+                  <citation key="ref33/cit33">
+                    <doi>10.1039/c6ee03352k</doi>
+                  </citation>
+                  <citation key="ref34/cit34">
+                    <doi>10.1038/ncomms3885</doi>
+                  </citation>
+                  <citation key="ref35/cit35">
+                    <doi>10.1021/acsenergylett.6b00722</doi>
+                  </citation>
+                  <citation key="ref36/cit36">
+                    <doi>10.1063/1.106088</doi>
+                  </citation>
+                  <citation key="ref37/cit37">
+                    <doi>10.1103/physrevlett.87.096801</doi>
+                  </citation>
+                  <citation key="ref38/cit38">
+                    <doi>10.1073/pnas.0912716107</doi>
+                  </citation>
+                  <citation key="ref39/cit39">
+                    <doi>10.1063/1.4754602</doi>
+                  </citation>
+                  <citation key="ref40/cit40">
+                    <doi>10.1063/1.4828862</doi>
+                  </citation>
+                  <citation key="ref41/cit41">
+                    <doi>10.1021/acs.jpcc.6b03160</doi>
+                  </citation>
+                  <citation key="ref42/cit42">
+                    <doi>10.1021/nn404920t</doi>
+                  </citation>
+                  <citation key="ref43/cit43">
+                    <doi>10.1021/nl060558q</doi>
+                  </citation>
+                  <citation key="ref44/cit44">
+                    <doi>10.1063/1.125149</doi>
+                  </citation>
+                  <citation key="ref45/cit45">
+                    <doi>10.1021/nn300941f</doi>
+                  </citation>
+                  <citation key="ref46/cit46">
+                    <doi>10.1063/1.2932254</doi>
+                  </citation>
+                  <citation key="ref47/cit47">
+                    <doi>10.1021/jp207387d</doi>
+                  </citation>
+                  <citation key="ref48/cit48">
+                    <doi>10.1103/physrevlett.96.179902</doi>
+                  </citation>
+                  <citation key="ref49/cit49">
+                    <doi>10.1021/jp061865n</doi>
+                  </citation>
+                  <citation key="ref50/cit50">
+                    <doi>10.1063/1.4948767</doi>
+                  </citation>
+                  <citation key="ref51/cit51">
+                    <doi>10.1038/ncomms6001</doi>
+                  </citation>
+                  <citation key="ref52/cit52">
+                    <doi>10.1021/acsami.5b09801</doi>
+                  </citation>
+                  <citation key="ref53/cit53">
+                    <doi>10.1002/aenm.201600330</doi>
+                  </citation>
+                  <citation key="ref54/cit54">
+                    <doi>10.1126/sciadv.1602164</doi>
+                  </citation>
+                  <citation key="ref55/cit55">
+                    <doi>10.1021/acs.nanolett.7b00289</doi>
+                  </citation>
+                  <citation key="ref56/cit56">
+                    <doi>10.1021/acsnano.7b02114</doi>
+                  </citation>
+                  <citation key="ref57/cit57">
+                    <doi>10.1039/c7cp03760k</doi>
+                  </citation>
+                  <citation key="ref58/cit58">
+                    <doi>10.1021/acsami.7b08582</doi>
+                  </citation>
+                  <citation key="ref59/cit59">
+                    <doi>10.1021/acsami.7b15904</doi>
+                  </citation>
+                  <citation key="ref60/cit60">
+                    <doi>10.1021/acsenergylett.8b00505</doi>
+                  </citation>
+                  <citation key="ref61/cit61">
+                    <doi>10.1021/acs.jpcc.8b03255</doi>
+                  </citation>
+                  <citation key="ref62/cit62">
+                    <doi>10.1088/1361-6528/aad873</doi>
+                  </citation>
+                  <citation key="ref63/cit63">
+                    <doi>10.1038/nmat1712</doi>
+                  </citation>
+                  <citation key="ref64/cit64">
+                    <doi>10.1021/jp1056607</doi>
+                  </citation>
+                  <citation key="ref65/cit65">
+                    <doi>10.1021/nl203956q</doi>
+                  </citation>
+                  <citation key="ref66/cit66">
+                    <doi>10.1063/1.4948396</doi>
+                  </citation>
+                  <citation key="ref67/cit67">
+                    <doi>10.1126/sciadv.1602951</doi>
+                  </citation>
+                  <citation key="ref68/cit68">
+                    <doi>10.1063/1.2753539</doi>
+                  </citation>
+                  <citation key="ref70/cit70">
+                    <doi>10.1039/c3ee43707h</doi>
+                  </citation>
+                  <citation key="ref71/cit71">
+                    <doi>10.1038/nenergy.2016.177</doi>
+                  </citation>
+                  <citation key="ref72/cit72">
+                    <doi>10.1021/acsenergylett.8b00548</doi>
+                  </citation>
+                  <citation key="ref73/cit73">
+                    <unstructured_citation>Luria, J. L. Spectroscopic Characterization of Charge Generation and Trapping in Third-Generation Solar Cell Materials Using Wavelength- and Time-Resolved Electric Force Microscopy. Ph.D. Thesis, Cornell University, Ithaca, NY, 2011.</unstructured_citation>
+                  </citation>
+                  <citation key="ref74/cit74">
+                    <doi>10.1021/acs.jpclett.7b02401</doi>
+                  </citation>
+                  <citation key="ref75/cit75">
+                    <doi>10.1021/acsenergylett.8b00764</doi>
+                  </citation>
+                  <citation key="ref76/cit76">
+                    <doi>10.1016/j.nanoen.2016.08.016</doi>
+                  </citation>
+                  <citation key="ref77/cit77">
+                    <doi>10.1002/aenm.201501994</doi>
+                  </citation>
+                  <citation key="ref78/cit78">
+                    <doi>10.1002/adma.201305172</doi>
+                  </citation>
+                  <citation key="ref79/cit79">
+                    <doi>10.1126/science.aaa5333</doi>
+                  </citation>
+                  <citation key="ref80/cit80">
+                    <doi>10.1021/acs.jpclett.5b01361</doi>
+                  </citation>
+                  <citation key="ref81/cit81">
+                    <doi>10.1021/acsenergylett.6b00236</doi>
+                  </citation>
+                  <citation key="ref82/cit82">
+                    <doi>10.1038/ncomms12253</doi>
+                  </citation>
+                  <citation key="ref83/cit83">
+                    <doi>10.1063/1.4960112</doi>
+                  </citation>
+                  <citation key="ref84/cit84">
+                    <doi>10.1002/admi.201600694</doi>
+                  </citation>
+                  <citation key="ref85/cit85">
+                    <doi>10.1021/acs.jpclett.7b02128</doi>
+                  </citation>
+                  <citation key="ref86/cit86">
+                    <volume_title>Fundamentals of Ceramics</volume_title>
+                    <author>Barsoum M. W.</author>
+                    <cYear>2003</cYear>
+                    <doi provider="crossref">10.1887/0750309024</doi>
+                  </citation>
+                  <citation key="ref87/cit87">
+                    <doi>10.1063/1.3673868</doi>
+                  </citation>
+                  <citation key="ref88/cit88">
+                    <doi>10.1149/1.1392611</doi>
+                  </citation>
+                  <citation key="ref89/cit89">
+                    <doi>10.1063/1.1679086</doi>
+                  </citation>
+                  <citation key="ref90/cit90">
+                    <doi>10.1111/j.1551-2916.2005.00740.x</doi>
+                  </citation>
+                  <citation key="ref91/cit91">
+                    <doi>10.1039/b907740e</doi>
+                  </citation>
+                  <citation key="ref92/cit92">
+                    <doi>10.1021/jp411004e</doi>
+                  </citation>
+                  <citation key="ref93/cit93">
+                    <doi>10.1021/jp5062144</doi>
+                  </citation>
+                  <citation key="ref94/cit94">
+                    <doi>10.1126/science.aaa2725</doi>
+                  </citation>
+                  <citation key="ref95/cit95">
+                    <doi>10.1039/c4ta04007d</doi>
+                  </citation>
+                  <citation key="ref96/cit96">
+                    <doi>10.1021/nl500390f</doi>
+                  </citation>
+                  <citation key="ref97/cit97">
+                    <doi>10.1039/c5ee02740c</doi>
+                  </citation>
+                  <citation key="ref98/cit98">
+                    <doi>10.1063/1.2957069</doi>
+                  </citation>
+                  <citation key="ref99/cit99">
+                    <doi>10.1126/sciadv.aao5616</doi>
+                  </citation>
+                  <citation key="ref100/cit100">
+                    <doi>10.1126/science.aap8671</doi>
+                  </citation>
+                  <citation key="ref101/cit101">
+                    <doi>10.1016/0167-2738(86)90323-1</doi>
+                  </citation>
+                  <citation key="ref102/cit102">
+                    <doi>10.1039/c4sc03141e</doi>
+                  </citation>
+                  <citation key="ref103/cit103">
+                    <doi>10.1038/s41467-017-00284-2</doi>
+                  </citation>
+                  <citation key="ref104/cit104">
+                    <doi>10.1016/0167-2738(83)90025-5</doi>
+                  </citation>
+                  <citation key="ref105/cit105">
+                    <doi>10.1038/ncomms15152</doi>
+                  </citation>
+                  <citation key="ref106/cit106">
+                    <doi>10.1021/acsenergylett.7b00183</doi>
+                  </citation>
+                </citation_list>
+                <component_list>
+                  <component parent_relation="isPartOf">
+                    <titles>
+                      <title>Substrate-Dependent Photoconductivity Dynamics in a High-Efficiency Hybrid Perovskite Alloy</title>
+                    </titles>
+                    <description>Supplemental Information for 10.1021/acs.jpcc.8b11783</description>
+                    <format mime_type="text/xml" />
+                    <doi_data>
+                      <doi>10.1021/acs.jpcc.8b11783.s001</doi>
+                      <resource>https://pubs.acs.org/doi/suppl/10.1021/acs.jpcc.8b11783/suppl_file/jp8b11783_si_001.pdf</resource>
+                    </doi_data>
+                  </component>
+                </component_list>
+              </journal_article>
+            </journal>
+          </crossref>
+        </doi_record>
+      </query>
+    </body>
+  </query_result>
+</crossref_result>
