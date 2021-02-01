@@ -47,7 +47,7 @@ def test_reference_matching(mock_refapi_init, caplog):
 
 
 BIBTEX = """@Article{Shi2010jul
-  author = {Shi, Guanming., Chavas, Jean-paul., Stiegert, Kyle},
+  author = {Shi, Guanming and Chavas, Jean-paul and Stiegert, Kyle},
   title = {An Analysis of the Pricing of Traits in the U.S. Corn Seed Market},
   journal = {American Journal of Agricultural Economics},
   year = {2010},

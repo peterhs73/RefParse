@@ -78,9 +78,7 @@ class CrossRefParser(ParserBase):
 
         pdict["has_publication"] = True
         journal_meta = soup.journal_metadata
-        pdict["journal_full_title"] = get_string(
-            journal_meta, "full_title"
-        )
+        pdict["journal_full_title"] = get_string(journal_meta, "full_title")
         pdict["journal_abbrev_title"] = get_string(
             journal_meta, "abbrev_title"
         )
@@ -125,9 +123,7 @@ class CrossRefParser(ParserBase):
             )
 
             issue_meta = soup.journal_issue
-            pdict["volume"] = get_string(
-                issue_meta, "journal_volume/volume"
-            )
+            pdict["volume"] = get_string(issue_meta, "journal_volume/volume")
             pdict["issue"] = get_string(issue_meta, "issue")
         else:
             pdict["has_print"] = False
@@ -154,9 +150,13 @@ class arXivParser(ParserBase):
         self.search_doi(soup)
 
         article_meta = soup.entry
-
-        pdict["abstract"] = get_string(article_meta, "summary")
-        pdict["title"] = get_string(article_meta, "title")
+        # remove unnecessary 
+        pdict["abstract"] = get_string(article_meta, "summary").replace(
+            "\n", " "
+        )
+        print(repr(article_meta.summary.get_text(strip=True)))
+        # sometimes the arXiv article title has unnecessary linebreak
+        pdict["title"] = get_string(article_meta, "title").replace("\n ", "")
         pdict["title_latex"] = pdict["title"]
 
         pub_date = datetime.strptime(

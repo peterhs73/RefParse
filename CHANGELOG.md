@@ -17,3 +17,4 @@ Initiate the project.
 - Add GUI interface
 - Add parser for crossref (doi) and arXiv
 - Add unittest
+- Add user configuration

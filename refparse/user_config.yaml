@@ -1,0 +1,16 @@
+# RefParse User Configuration
+# The configuration file is loaded into a dictionary format using
+# pyymal (SafeLoader), and the keys of the dictionary are the names
+# reference format.
+# The value of the dictionary should be the reference template, which should
+# follow the convention of Cheetah3.
+# See the documentation of pyyaml and Cheetah3 for more details.
+
+# Please read the full documentation before proceed. RefParse only checks if
+# the yaml format is valid. 
+
+# The following is an example of the configuration, format name "doc"
+# that outputs first author surname, article title and publish year
+
+# doc: |
+#   $author[0][0] $title $online_year

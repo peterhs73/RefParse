@@ -64,8 +64,8 @@ def test_arXiv_parser(mock_get, caplog):
         "has_publication": False,
         "has_print": False,
         "abstract": "We explicitly give the correspondence between spectra of "
-        "heterotic string\ntheory compactified on $T^2$ and string "
-        "junctions in type IIB theory\ncompactified on $S^2$.",
+        "heterotic string theory compactified on $T^2$ and string "
+        "junctions in type IIB theory compactified on $S^2$.",
         "title": "String Junctions and Their Duals in Heterotic String Theory",
         "title_latex": "String Junctions and Their "
         "Duals in Heterotic String Theory",

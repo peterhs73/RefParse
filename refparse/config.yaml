@@ -8,7 +8,7 @@ bibtex: |
   #set $month = $FN.month_abbr($pub_month).lower()
   #set $bibkey = $author[0][0] + $year + $month
   #set $latex_author = [[$FN.unicode_to_latex(name) for name in names] for names in $author]
-  #set $author_ = '., '.join($FN.map('{0[0]}, {0[1]}'.format, $latex_author))
+  #set $author_ = ' and '.join($FN.map('{0[0]}, {0[1]}'.format, $latex_author))
   #set $pages_ = '--'.join($pages)
   #set $title_ = $FN.titlecase($FN.unicode_to_latex($title_latex))
   #set $abstract_ = $FN.unicode_to_latex($abstract)
