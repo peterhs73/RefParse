@@ -4,7 +4,7 @@ The RefParse is a simple citation generation tool for doi and arXiv articles. It
 
 The API is a combination of the crossref REST API and arXiv API. The format template is in Cheetah3 format. See [RefParse wiki](https://github.com/peterhs73/RefParse/wiki) for the more detailed API description, user interface, and how to extend the custom format templates.  
 
-![RefParse GUI](https://gph.is/g/aeo8GRk)
+![RefParse GUI](https://media.giphy.com/media/UUCJ18cy0gQPT7MM73/giphy.gif)
 
 Installation (at the root directory) run
 
@@ -13,4 +13,3 @@ Installation (at the root directory) run
 To test the package (at the root directory) run
 
 	```tox```
-
