@@ -98,7 +98,8 @@ class ParserGUI(QWidget):
         self.log_box = QTextEdit(self)
         self.log_box.setReadOnly(True)
         self.log_box.setStyleSheet("background-color: transparent;")
-        self.log_box.setSizePolicy(QSizePolicy.Minimum, QSizePolicy.Fixed)
+        # set the log box to half of the size
+        self.log_box.setMaximumHeight(self.log_box.sizeHint().height() / 2)
 
         # custom signal handler
         log_handler = QLogHandler(self)

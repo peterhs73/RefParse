@@ -150,7 +150,7 @@ class arXivParser(ParserBase):
         self.search_doi(soup)
 
         article_meta = soup.entry
-        # remove unnecessary 
+        # remove unnecessary line break
         pdict["abstract"] = get_string(article_meta, "summary").replace(
             "\n", " "
         )

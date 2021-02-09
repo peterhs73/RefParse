@@ -6,7 +6,7 @@ Cheetah3==3.2.6
 
 # requirement for interface
 Click==7.1.2
-PySide2==5.12.0
+PySide2==5.12.1
 
 # requirement for network
 requests==2.24

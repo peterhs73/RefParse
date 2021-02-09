@@ -91,14 +91,11 @@ def config(editor):
     used. e.g. nano. If no existing configuration file exists,
     a new file is created ~/.refparse/user_config.yaml
     """
-    if os.path.isfile(USR_PATH):
-        click.edit(editor=editor, extension=".yaml", filename=USR_PATH)
-        load_user_config()
-    else:
+    if not os.path.isfile(USR_PATH):
         os.makedirs(USR_DIR, exist_ok=True)
         copyfile(CONFIG_INSTR_PATH, USR_PATH)
-        click.edit(editor=editor, extension=".yaml", filename=USR_PATH)
-        load_user_config()
+    click.edit(editor=editor, extension=".yaml", filename=USR_PATH)
+    load_user_config()
 
 
 @click.command()
